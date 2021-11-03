@@ -1,0 +1,20 @@
+{
+  "name": "chatcord-master",
+  "version": "1.0.0",
+  "description": "realtime chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Adil Nehal",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
